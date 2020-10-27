@@ -9,13 +9,15 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",
-                "html:target/default-html-reports"
+                "html:target/default-html-reports",
+                "rerun:target/rerun.txt"
+
         },
 
         features = "src/test/resources/features",
         glue = "com/zerobank/step_definitions",
         dryRun = false,  // it control only steps are here  or not
-        tags = "@te"
+        tags = "@Reg"
 )
 public class CukesRunner {
 

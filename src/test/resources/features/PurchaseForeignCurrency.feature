@@ -1,4 +1,4 @@
-@te
+
 
 Feature: Purchase Foreign Currency
 Background:
