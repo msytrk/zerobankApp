@@ -138,7 +138,7 @@ public class AccountActivityPage extends BasePage {
 
 
     }
-    // Compare result between two LocalDate 
+    // Compare result between two LocalDate
     public boolean dateComparator(LocalDate fromDate,LocalDate toDate) {
         boolean flag=true;
         for (LocalDate date : dateConverter()) {
