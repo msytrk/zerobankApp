@@ -1,4 +1,4 @@
-@Reg
+@test
 Feature:Login Page
   Background:
     Given the user is should be login page

@@ -142,8 +142,10 @@ public class AccountActivityPage extends BasePage {
     public boolean dateComparator(LocalDate fromDate,LocalDate toDate) {
         boolean flag=true;
         for (LocalDate date : dateConverter()) {
+
             if (date.isEqual(toDate) || date.isEqual(fromDate) || (date.isBefore(toDate) && date.isAfter(fromDate)) )
             {
+
                 continue;
             }
             else

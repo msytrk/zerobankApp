@@ -10,12 +10,12 @@ Background:
     Then following currencies should be available
         |Australia (dollar) |
         |Canada (dollar)    |
-        |Switzerland (franc)|
-        |China (yuan)       |
-        |Denmark (krone)    |
-        |Eurozone (euro)    |
+        |Switzerland (franc)  |
+        |China (yuan)         |
+        |Denmark (krone)      |
+        |Eurozone (euro)      |
         |Great Britain (pound)|
-        |Japan (yen)         |
+        |Japan (yen)          |
         |Mexico (peso)        |
         |Norway (krone)       |
         |New Zealand (dollar) |
