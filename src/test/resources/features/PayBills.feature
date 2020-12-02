@@ -1,5 +1,4 @@
 @Reg
-
 Feature: Pay Bills functions
 
   Background:

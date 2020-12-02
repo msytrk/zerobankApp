@@ -1,5 +1,5 @@
 
-
+@Reg
 Feature: Purchase Foreign Currency
 Background:
     Given the user is logged in

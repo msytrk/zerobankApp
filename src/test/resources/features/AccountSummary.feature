@@ -1,4 +1,4 @@
-@Reg
+@new
 Feature:AccountSummary Page
   Background:
     Given the user is should be login page
